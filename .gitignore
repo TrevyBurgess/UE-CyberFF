@@ -48,6 +48,16 @@ Binaries
 *.log
 #----------------------------------
 
+CyberFF/Content/**
+
+
+
+
+
+
+
+
+
 #
 DerivedDataCache
 
