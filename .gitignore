@@ -48,7 +48,13 @@ Binaries
 *.log
 #----------------------------------
 
-CyberFF/Content/**
+# Ignore the following folders in the Content directory
+!/CyberFF/Content
+/CyberFF/Content/*
+
+# Include the following folders in the Content directory
+!/CyberFF/Content/_Content
+!/CyberFF/Content/CyberFF
 
 
 
@@ -56,9 +62,7 @@ CyberFF/Content/**
 
 
 
-
-
-#
+#----------------------------------
 DerivedDataCache
 
 # Precompiled Assets
